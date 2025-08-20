@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Ultra Enhanced Poster Designer Pro | High-Tech Creative Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Exo+2:wght@300;400;500;600;700;800;900&family=Audiowide&family=Michroma&family=Gruppo&family=Bai+Jamjuree:wght@300;400;500;600;700&family=Nova+Mono&family=Monoton&family=Faster+One&family=Syncopate&family=Bebas+Neue&family=Russo+One&family=Teko:wght@300;400;500;600;700&family=Saira+Condensed:wght@300;400;500;600;700&family=Quantico:wght@400;700&family=Electrolize&family=Share+Tech+Mono&family=Black+Ops+One&family=Aldrich&family=Chakra+Petch:wght@300;400;500;600;700&family=Jura:wght@300;400;500;600;700&family=Play:wght@400;700&family=Gemunu+Libre:wght@200;300;400;500;600;700;800&family=Wallpoet&family=Creepster&family=Eater&family=Nosifer&family=Permanent+Marker&family=Bungee&family=Abril+Fatface&family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Initializing Enhanced Poster Designer...</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-title" data-text="POSTER DESIGNER PRO">POSTER DESIGNER PRO</h1>
+            <p class="subtitle">🚀 Ultra Enhanced • High-Tech • Creative Studio 🚀</p>
+            <div class="name-sumit">Made with ❤️ by Sumit Sheokand</div>
+        </header>
+
+        <!-- Control Grid -->
+        <div class="control-grid">
+            <!-- Left Panel - Enhanced Controls -->
+            <div class="control-panel">
+                <!-- Tab System -->
+                <div class="tab-container">
+                    <button class="tab-btn active" data-tab="text">Text</button>
+                    <button class="tab-btn" data-tab="image">Image</button>
+                    <button class="tab-btn" data-tab="style">Style</button>
+                </div>
+
+                <!-- Text Tab -->
+                <div class="tab-content active" id="text-tab">
+                    <div class="form-group">
+                        <label class="form-label">Enter Your Text</label>
+                        <textarea id="textInput" class="futuristic-textarea" placeholder="Type your amazing text here...&#10;Support multiple lines!">FUTURE DESIGN</textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Font Family</label>
+                        <select id="fontSelect" class="futuristic-select">
+                            <optgroup label="Futuristic">
+                                <option value="Orbitron">Orbitron - Futuristic</option>
+                                <option value="Rajdhani">Rajdhani - Tech</option>
+                                <option value="Exo 2">Exo 2 - Modern</option>
+                                <option value="Audiowide">Audiowide - Digital</option>
+                                <option value="Electrolize">Electrolize - Clean</option>
+                                <option value="Quantico">Quantico - Military</option>
+                                <option value="Aldrich">Aldrich - Retro</option>
+                                <option value="Jura">Jura - Rounded</option>
+                                <option value="Play">Play - Simple</option>
+                            </optgroup>
+                            <optgroup label="Bold & Heavy">
+                                <option value="Bebas Neue">Bebas Neue - Condensed</option>
+                                <option value="Russo One">Russo One - Bold</option>
+                                <option value="Anton">Anton - Impact</option>
+                                <option value="Black Ops One">Black Ops One - Stencil</option>
+                                <option value="Teko">Teko - Compressed</option>
+                                <option value="Saira Condensed">Saira Condensed - Narrow</option>
+                                <option value="Gemunu Libre">Gemunu Libre - Display</option>
+                            </optgroup>
+                            <optgroup label="Monospace & Code">
+                                <option value="Space Mono">Space Mono - Retro</option>
+                                <option value="Nova Mono">Nova Mono - Code</option>
+                                <option value="Share Tech Mono">Share Tech Mono - Tech</option>
+                                <option value="Chakra Petch">Chakra Petch - Thai-Inspired</option>
+                            </optgroup>
+                            <optgroup label="Decorative & Special">
+                                <option value="Monoton">Monoton - Unique</option>
+                                <option value="Faster One">Faster One - Speed</option>
+                                <option value="Syncopate">Syncopate - Rhythm</option>
+                                <option value="Wallpoet">Wallpoet - Graffiti</option>
+                                <option value="Creepster">Creepster - Horror</option>
+                                <option value="Eater">Eater - Zombie</option>
+                                <option value="Nosifer">Nosifer - Gothic</option>
+                                <option value="Permanent Marker">Permanent Marker - Handwritten</option>
+                                <option value="Bungee">Bungee - Colorful</option>
+                            </optgroup>
+                            <optgroup label="Classic & Elegant">
+                                <option value="Michroma">Michroma - Bold</option>
+                                <option value="Gruppo">Gruppo - Elegant</option>
+                                <option value="Bai Jamjuree">Bai Jamjuree - Clean</option>
+                                <option value="Abril Fatface">Abril Fatface - Display</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Font Weight</label>
+                        <select id="fontWeight" class="futuristic-select">
+                            <option value="300">Light (300)</option>
+                            <option value="400" selected>Regular (400)</option>
+                            <option value="500">Medium (500)</option>
+                            <option value="600">Semi-Bold (600)</option>
+                            <option value="700">Bold (700)</option>
+                            <option value="800">Extra Bold (800)</option>
+                            <option value="900">Black (900)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Font Style</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-font-style="normal">Normal</button>
+                            <button class="cyber-btn" data-font-style="italic">Italic</button>
+                            <button class="cyber-btn" data-font-style="oblique">Oblique</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Text Transform</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-text-transform="none">None</button>
+                            <button class="cyber-btn" data-text-transform="uppercase">UPPER</button>
+                            <button class="cyber-btn" data-text-transform="lowercase">lower</button>
+                            <button class="cyber-btn" data-text-transform="capitalize">Capitalize</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Font Size</label>
+                        <div class="slider-container">
+                            <input type="range" id="fontSize" class="neon-slider" min="20" max="300" value="80">
+                            <span id="fontSizeValue" class="slider-value">80px</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Letter Spacing</label>
+                        <div class="slider-container">
+                            <input type="range" id="letterSpacing" class="neon-slider" min="-10" max="20" value="0">
+                            <span id="letterSpacingValue" class="slider-value">0px</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Line Height</label>
+                        <div class="slider-container">
+                            <input type="range" id="lineHeight" class="neon-slider" min="0.5" max="3" step="0.1" value="1.2">
+                            <span id="lineHeightValue" class="slider-value">1.2</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Text Position</label>
+                        <div class="slider-container">
+                            <label style="min-width: 20px;">X:</label>
+                            <input type="range" id="textPosX" class="neon-slider" min="0" max="100" value="50">
+                            <span id="textPosXValue" class="slider-value">50%</span>
+                        </div>
+                        <div class="slider-container">
+                            <label style="min-width: 20px;">Y:</label>
+                            <input type="range" id="textPosY" class="neon-slider" min="0" max="100" value="50">
+                            <span id="textPosYValue" class="slider-value">50%</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Text Rotation</label>
+                        <div class="slider-container">
+                            <input type="range" id="textRotation" class="neon-slider" min="-180" max="180" value="0">
+                            <span id="textRotationValue" class="slider-value">0°</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Text Color</label>
+                        <input type="color" id="textColor" class="color-picker" value="#00ff88">
+                    </div>
+                </div>
+
+                <!-- Image Tab -->
+                <div class="tab-content" id="image-tab">
+                    <div class="file-upload-zone" id="uploadZone">
+                        <div class="upload-icon">📸</div>
+                        <div class="upload-text">Drop images here or click to browse</div>
+                        <div class="upload-subtext">Supports JPG, PNG, GIF, WebP</div>
+                    </div>
+                    <input type="file" id="imageInput" accept="image/*" multiple>
+
+                    <div class="image-controls" id="imageControls">
+                        <img id="imagePreview" class="image-preview" alt="Uploaded image preview">
+                        
+                        <div class="form-group">
+                            <label class="form-label">Image Scale</label>
+                            <div class="slider-container">
+                                <input type="range" id="imageScale" class="neon-slider" min="10" max="200" value="100">
+                                <span id="imageScaleValue" class="slider-value">100%</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Image Position</label>
+                            <div class="slider-container">
+                                <label style="min-width: 20px;">X:</label>
+                                <input type="range" id="imagePosX" class="neon-slider" min="0" max="100" value="50">
+                                <span id="imagePosXValue" class="slider-value">50%</span>
+                            </div>
+                            <div class="slider-container">
+                                <label style="min-width: 20px;">Y:</label>
+                                <input type="range" id="imagePosY" class="neon-slider" min="0" max="100" value="50">
+                                <span id="imagePosYValue" class="slider-value">50%</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Image Rotation</label>
+                            <div class="slider-container">
+                                <input type="range" id="imageRotation" class="neon-slider" min="-180" max="180" value="0">
+                                <span id="imageRotationValue" class="slider-value">0°</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Image Filters</label>
+                            <div class="slider-container">
+                                <label style="min-width: 70px;">Brightness:</label>
+                                <input type="range" id="imageBrightness" class="neon-slider" min="0" max="200" value="100">
+                                <span id="imageBrightnessValue" class="slider-value">100%</span>
+                            </div>
+                            <div class="slider-container">
+                                <label style="min-width: 70px;">Contrast:</label>
+                                <input type="range" id="imageContrast" class="neon-slider" min="0" max="200" value="100">
+                                <span id="imageContrastValue" class="slider-value">100%</span>
+                            </div>
+                            <div class="slider-container">
+                                <label style="min-width: 70px;">Saturation:</label>
+                                <input type="range" id="imageSaturation" class="neon-slider" min="0" max="200" value="100">
+                                <span id="imageSaturationValue" class="slider-value">100%</span>
+                            </div>
+                            <div class="slider-container">
+                                <label style="min-width: 70px;">Blur:</label>
+                                <input type="range" id="imageBlur" class="neon-slider" min="0" max="20" value="0">
+                                <span id="imageBlurValue" class="slider-value">0px</span>
+                            </div>
+                        </div>
+
+                        <div class="image-tool-group">
+                            <button class="image-tool-btn" id="removeImageBtn">🗑️ Remove Image</button>
+                            <button class="image-tool-btn" id="resetImageBtn">🔄 Reset Filters</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Style Tab -->
+                <div class="tab-content" id="style-tab">
+                    <div class="form-group">
+                        <label class="form-label">Text Shadow Style</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-shadow="none">None</button>
+                            <button class="cyber-btn" data-shadow="shadow1">Basic</button>
+                            <button class="cyber-btn" data-shadow="shadow2">Glow</button>
+                            <button class="cyber-btn" data-shadow="shadow3">3D</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Text Outline</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-outline="none">None</button>
+                            <button class="cyber-btn" data-outline="border">Border</button>
+                            <button class="cyber-btn" data-outline="outline">Outline</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Background Style</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-bg="gradient1">Cyber</button>
+                            <button class="cyber-btn" data-bg="gradient2">Neon</button>
+                            <button class="cyber-btn" data-bg="gradient3">Ocean</button>
+                            <button class="cyber-btn" data-bg="gradient4">Nature</button>
+                            <button class="cyber-btn" data-bg="gradient5">Sunset</button>
+                            <button class="cyber-btn" data-bg="gradient6">Fire</button>
+                            <button class="cyber-btn" data-bg="gradient7">Purple</button>
+                            <button class="cyber-btn" data-bg="solid">Solid</button>
+                        </div>
+                        <input type="color" id="bgColor" class="color-picker" value="#0a0a0f" style="margin-top: 10px;">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Canvas Size</label>
+                        <div class="btn-group">
+                            <button class="cyber-btn active" data-size="16:9">16:9 HD</button>
+                            <button class="cyber-btn" data-size="1:1">1:1 Square</button>
+                            <button class="cyber-btn" data-size="9:16">9:16 Story</button>
+                            <button class="cyber-btn" data-size="4:3">4:3 Classic</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center Panel - Enhanced Canvas -->
+            <div class="canvas-container">
+                <div id="poster-canvas">
+                    <div id="posterText" class="canvas-element">FUTURE DESIGN</div>
+                    <!-- Images will be added dynamically -->
+                </div>
+            </div>
+
+            <!-- Right Panel - Effects & Layers -->
+            <div class="control-panel">
+                <h2 class="panel-title">✨ Effects & Export</h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Visual Effects</label>
+                    <div class="btn-group">
+                        <button class="effect-btn active" data-effect="none">None</button>
+                        <button class="effect-btn" data-effect="glow">Neon Glow</button>
+                        <button class="effect-btn" data-effect="glitch">Glitch</button>
+                        <button class="effect-btn" data-effect="hologram">Hologram</button>
+                        <button class="effect-btn" data-effect="matrix">Matrix</button>
+                        <button class="effect-btn" data-effect="pulse">Pulse</button>
+                        <button class="effect-btn" data-effect="cyberpunk">Cyberpunk</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Quick Actions</label>
+                    <div class="btn-group">
+                        <button class="cyber-btn" id="randomizeBtn">🎲 Randomize</button>
+                        <button class="cyber-btn" id="resetBtn">🔄 Reset</button>
+                        <button class="cyber-btn" id="duplicateBtn">📋 Duplicate</button>
+                    </div>
+                </div>
+
+                <!-- Layer Panel -->
+                <div class="layer-panel">
+                    <h3 class="form-label" style="margin-bottom: 15px;">🎭 Layers</h3>
+                    <div id="layerList">
+                        <div class="layer-item active" data-layer="text">
+                            <div class="layer-icon">T</div>
+                            <div class="layer-name">Text Layer</div>
+                            <div class="layer-visibility" data-visible="true">👁️</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="export-btn" id="exportBtn">
+                    📥 Export as PNG
+                </button>
+            </div>
+        </div>
+
+        <!-- Enhanced Font Preview Section -->
+        <div class="control-panel">
+            <h2 class="panel-title">🎨 Font Gallery</h2>
+            <div class="font-category-tabs">
+                <button class="font-tab-btn active" data-category="all">All Fonts</button>
+                <button class="font-tab-btn" data-category="futuristic">Futuristic</button>
+                <button class="font-tab-btn" data-category="bold">Bold & Heavy</button>
+                <button class="font-tab-btn" data-category="decorative">Decorative</button>
+                <button class="font-tab-btn" data-category="elegant">Classic</button>
+            </div>
+            <div class="font-preview-grid" id="fontPreviewGrid">
+                <!-- Font previews will be generated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
