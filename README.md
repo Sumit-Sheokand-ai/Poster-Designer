@@ -10,7 +10,7 @@
 
 ## 🌟 Overview
 
-The **Ultra Enhanced Poster Designer Pro** is the most advanced web-based poster creation tool available. Built with pure HTML, CSS, and JavaScript, it features extensive image editing capabilities, 30+ professional fonts, advanced typography controls, and a cyberpunk-inspired interface with stunning CSS animations.
+The **Ultra Enhanced Poster Designer** is the most advanced web-based poster creation tool available. Built with pure HTML, CSS, and JavaScript, it features extensive image editing capabilities, 30+ professional fonts, advanced typography controls, and a cyberpunk-inspired interface with stunning CSS animations.
 
 ## ✨ Key Features
 
@@ -324,4 +324,5 @@ copies or substantial portions of the Software.
 *Ready to create the future of poster design?* 🚀
 
 **Download, open, and start creating stunning posters in seconds!**
+
 
