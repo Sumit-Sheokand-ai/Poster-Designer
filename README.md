@@ -2,7 +2,6 @@
 
 **The Ultimate High-Tech, Futuristic Web-Based Poster Creator with Advanced Image Editing & Typography**
 
-![Version](https://img.shields.io/badge/version-2.0%20Enhanced-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![CSS3](https://img.shields.io/badge/CSS3-Advanced%20Animations-orange.svg)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
@@ -325,3 +324,4 @@ copies or substantial portions of the Software.
 *Ready to create the future of poster design?* 🚀
 
 **Download, open, and start creating stunning posters in seconds!**
+
